@@ -1,0 +1,75 @@
+﻿<html><head><meta http-equiv="X-UA-Compatible" content="IE=edge" /><link rel="shortcut icon" href="../icons/favicon.ico" /><link rel="stylesheet" type="text/css" href="../styles/branding.css" /><link rel="stylesheet" type="text/css" href="../styles/branding-en-US.css" /><script type="text/javascript" src="../scripts/branding.js"></script><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><title>TempoDB Constructor </title><meta name="Language" content="en-us" /><meta name="System.Keywords" content="TempoDB class, constructor" /><meta name="System.Keywords" content="TempoDB.TempoDB constructor" /><meta name="Microsoft.Help.F1" content="TempoDB.TempoDB.#ctor" /><meta name="Microsoft.Help.F1" content="TempoDB.TempoDB.TempoDB" /><meta name="Microsoft.Help.Id" content="M:TempoDB.TempoDB.#ctor(TempoDB.Database,TempoDB.Credentials,System.String,System.Int32,System.String,System.Boolean,RestSharp.RestClient)" /><meta name="Description" content="TempoDB.TempoDB" /><meta name="Microsoft.Help.ContentType" content="Reference" /><meta name="BrandingAware" content="'true'" /><meta name="container" content="TempoDB" /><meta name="file" content="9d631832-3c7d-634b-a1af-946aede3e346" /><meta name="guid" content="9d631832-3c7d-634b-a1af-946aede3e346" /><meta name="SelfBranded" content="true" /></head><body onload="onLoad()"><div class="VS2013_outerDiv"><div class="VS2013_outerContent"><table class="TitleTable"><tr><td class="VS2013_tdTitleColumn">TempoDB Constructor </td><td class="VS2013_tdRunningTitleColumn">TempoDB .NET - Client Documentation</td></tr></table><div id="mainSection"><div id="mainBody"><span class="introStyle"></span><div class="summary">Initializes a new instance of the <a href="19adfce3-6e99-a52c-217e-63e11283e90d.htm">TempoDB</a> class</div><p></p><strong>Namespace:</strong> <a href="763ef31e-f67e-f0e8-96ac-5632b1a1eaba.htm">TempoDB</a><br /><strong>Assembly:</strong> TempoDB (in TempoDB.dll) Version: 0.1.0.0<div class="VS2013_CollapsibleAreaRegion"><span class="VS2013_RegionTitle" onclick="ExpandCollapse('ID0RB')" onkeypress="ExpandCollapse_CheckKey('ID0RB', event)" tabindex="0"><img id="ID0RBToggle" class="CollapseToggle" src="../icons/Expanded.png" />Syntax</span></div><div id="ID0RBSection" class="VS2013_CollapsibleSection"><div id="snippetGroup_Syntax" class="code"><div id="ID0ECIACAAABAA" class="codeSnippetContainer"><div class="codeSnippetContainerTabs" id="ID0ECIACAAABAA_tabs"><div id="ID0ECIACAAABAA_tab1" class="codeSnippetContainerTabActive" EnableCopyCode="true"><a href="#" onclick="javascript:ChangeTab('ID0ECIACAAABAA','C#','1','4');return false;">C#</a></div><div id="ID0ECIACAAABAA_tab2" class="codeSnippetContainerTab" EnableCopyCode="true"><a href="#" onclick="javascript:ChangeTab('ID0ECIACAAABAA','Visual Basic','2','4');return false;">VB</a></div><div id="ID0ECIACAAABAA_tab3" class="codeSnippetContainerTabPhantom" EnableCopyCode="true" disabled="true"><a>C++</a></div><div id="ID0ECIACAAABAA_tab4" class="codeSnippetContainerTab" EnableCopyCode="true"><a href="#" onclick="javascript:ChangeTab('ID0ECIACAAABAA','F#','4','4');return false;">F#</a></div></div><div id="ID0ECIACAAABAA_codecollection" class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID0ECIACAAABAA_copycode" href="#" onclick="javascript:CopyToClipboard('ID0ECIACAAABAA','4')" title="Copy to Clipboard">Copy to Clipboard</a><a id="ID0ECIACAAABAA_PrintText" class="OH_PrintText" href="#" onclick="javascript:Print('ID0ECIACAAABAA','4')" title="Print">Print</a></div></div><div id="ID0ECIACAAABAA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre><span class="keyword">public</span> <span class="identifier">TempoDB</span>(
+	<span class="identifier">Database</span> <span class="parameter">database</span>,
+	<span class="identifier">Credentials</span> <span class="parameter">credentials</span>,
+	<span class="identifier">string</span> <span class="parameter">host</span> = "api.tempo-db.com",
+	<span class="identifier">int</span> <span class="parameter">port</span> = 443,
+	<span class="identifier">string</span> <span class="parameter">version</span> = "v1",
+	<span class="identifier">bool</span> <span class="parameter">secure</span> = <span class="keyword">true</span>,
+	<span class="identifier">RestClient</span> <span class="parameter">client</span> = <span class="keyword">null</span>
+)</pre></div><div id="ID0ECIACAAABAA_code_Plain_Div1" class="codeSnippetContainerCode" style="display: none"><pre>public TempoDB(
+	Database database,
+	Credentials credentials,
+	string host = "api.tempo-db.com",
+	int port = 443,
+	string version = "v1",
+	bool secure = true,
+	RestClient client = null
+)</pre></div><div id="ID0ECIACAAABAA_code_Div2" class="codeSnippetContainerCode" style="display: none"><pre><span class="keyword">Public</span> <span class="keyword">Sub</span> <span class="identifier">New</span> ( 
+	<span class="parameter">database</span> <span class="keyword">As</span> <span class="identifier">Database</span>,
+	<span class="parameter">credentials</span> <span class="keyword">As</span> <span class="identifier">Credentials</span>,
+	Optional <span class="parameter">host</span> <span class="keyword">As</span> <span class="identifier">String</span> = "api.tempo-db.com",
+	Optional <span class="parameter">port</span> <span class="keyword">As</span> <span class="identifier">Integer</span> = 443,
+	Optional <span class="parameter">version</span> <span class="keyword">As</span> <span class="identifier">String</span> = "v1",
+	Optional <span class="parameter">secure</span> <span class="keyword">As</span> <span class="identifier">Boolean</span> = <span class="keyword">true</span>,
+	Optional <span class="parameter">client</span> <span class="keyword">As</span> <span class="identifier">RestClient</span> = <span class="keyword">Nothing</span>
+)</pre></div><div id="ID0ECIACAAABAA_code_Plain_Div2" class="codeSnippetContainerCode" style="display: none"><pre>Public Sub New ( 
+	database As Database,
+	credentials As Credentials,
+	Optional host As String = "api.tempo-db.com",
+	Optional port As Integer = 443,
+	Optional version As String = "v1",
+	Optional secure As Boolean = true,
+	Optional client As RestClient = Nothing
+)</pre></div><div id="ID0ECIACAAABAA_code_Div3" class="codeSnippetContainerCode" style="display: none"><pre /></div><div id="ID0ECIACAAABAA_code_Plain_Div3" class="codeSnippetContainerCode" style="display: none"><pre /></div><div id="ID0ECIACAAABAA_code_Div4" class="codeSnippetContainerCode" style="display: none"><pre><span class="keyword">new</span> : 
+        <span class="parameter">database</span> : <span class="identifier">Database</span> * 
+        <span class="parameter">credentials</span> : <span class="identifier">Credentials</span> * 
+        ?<span class="parameter">host</span> : <span class="identifier">string</span> * 
+        ?<span class="parameter">port</span> : <span class="identifier">int</span> * 
+        ?<span class="parameter">version</span> : <span class="identifier">string</span> * 
+        ?<span class="parameter">secure</span> : <span class="identifier">bool</span> * 
+        ?<span class="parameter">client</span> : <span class="identifier">RestClient</span> 
+(* Defaults:
+        <span class="keyword">let </span><span class="identifier">_</span><span class="identifier">host</span> = defaultArg <span class="identifier">host</span> "api.tempo-db.com"
+        <span class="keyword">let </span><span class="identifier">_</span><span class="identifier">port</span> = defaultArg <span class="identifier">port</span> 443
+        <span class="keyword">let </span><span class="identifier">_</span><span class="identifier">version</span> = defaultArg <span class="identifier">version</span> "v1"
+        <span class="keyword">let </span><span class="identifier">_</span><span class="identifier">secure</span> = defaultArg <span class="identifier">secure</span> <span class="keyword">true</span> 
+        <span class="keyword">let </span><span class="identifier">_</span><span class="identifier">client</span> = defaultArg <span class="identifier">client</span> <span class="keyword">null</span>
+*)
+<span class="keyword">-&gt;</span> <span class="identifier">TempoDB</span></pre></div><div id="ID0ECIACAAABAA_code_Plain_Div4" class="codeSnippetContainerCode" style="display: none"><pre>new : 
+        database : Database * 
+        credentials : Credentials * 
+        ?host : string * 
+        ?port : int * 
+        ?version : string * 
+        ?secure : bool * 
+        ?client : RestClient 
+(* Defaults:
+        let _host = defaultArg host "api.tempo-db.com"
+        let _port = defaultArg port 443
+        let _version = defaultArg version "v1"
+        let _secure = defaultArg secure true 
+        let _client = defaultArg client null
+*)
+-&gt; TempoDB</pre></div></div></div><script>addSpecificTextLanguageTagSet('ID0ECIACAAABAA');</script></div><h4 class="subHeading">Parameters</h4><dl paramName="database"><dt><span class="parameter">database</span></dt><dd>Type: <a href="d98ba4cc-abdf-a41e-fda2-bff479cf2796.htm">TempoDB<span id="ID0EBCAGACAAABAA"> </span><script type="text/javascript">
+					addToLanSpecTextIdSet("ID0EBCAGACAAABAA?vb=.|cpp=::|cs=.|fs=.|nu=.");
+				</script>Database</a><br /><span><p style="color: #dc143c; font-size: 8.5pt; font-weight: bold;">[Missing &lt;param name="database"/&gt; documentation for "M:TempoDB.TempoDB.#ctor(TempoDB.Database,TempoDB.Credentials,System.String,System.Int32,System.String,System.Boolean,RestSharp.RestClient)"]</p></span></dd></dl><dl paramName="credentials"><dt><span class="parameter">credentials</span></dt><dd>Type: <a href="78e90c70-13f2-7180-b3ef-8d3c2e830533.htm">TempoDB<span id="ID0EBCAFACAAABAA"> </span><script type="text/javascript">
+					addToLanSpecTextIdSet("ID0EBCAFACAAABAA?vb=.|cpp=::|cs=.|fs=.|nu=.");
+				</script>Credentials</a><br /><span><p style="color: #dc143c; font-size: 8.5pt; font-weight: bold;">[Missing &lt;param name="credentials"/&gt; documentation for "M:TempoDB.TempoDB.#ctor(TempoDB.Database,TempoDB.Credentials,System.String,System.Int32,System.String,System.Boolean,RestSharp.RestClient)"]</p></span></dd></dl><dl paramName="host"><dt><span class="parameter">host</span> (Optional)</dt><dd>Type: <a href="http://msdn2.microsoft.com/en-us/library/s1wwdcbf" target="_blank">System<span id="ID0EBCAEACAAABAA"> </span><script type="text/javascript">
+					addToLanSpecTextIdSet("ID0EBCAEACAAABAA?vb=.|cpp=::|cs=.|fs=.|nu=.");
+				</script>String</a><br /><span><p style="color: #dc143c; font-size: 8.5pt; font-weight: bold;">[Missing &lt;param name="host"/&gt; documentation for "M:TempoDB.TempoDB.#ctor(TempoDB.Database,TempoDB.Credentials,System.String,System.Int32,System.String,System.Boolean,RestSharp.RestClient)"]</p></span></dd></dl><dl paramName="port"><dt><span class="parameter">port</span> (Optional)</dt><dd>Type: <a href="http://msdn2.microsoft.com/en-us/library/td2s409d" target="_blank">System<span id="ID0EBCADACAAABAA"> </span><script type="text/javascript">
+					addToLanSpecTextIdSet("ID0EBCADACAAABAA?vb=.|cpp=::|cs=.|fs=.|nu=.");
+				</script>Int32</a><br /><span><p style="color: #dc143c; font-size: 8.5pt; font-weight: bold;">[Missing &lt;param name="port"/&gt; documentation for "M:TempoDB.TempoDB.#ctor(TempoDB.Database,TempoDB.Credentials,System.String,System.Int32,System.String,System.Boolean,RestSharp.RestClient)"]</p></span></dd></dl><dl paramName="version"><dt><span class="parameter">version</span> (Optional)</dt><dd>Type: <a href="http://msdn2.microsoft.com/en-us/library/s1wwdcbf" target="_blank">System<span id="ID0EBCACACAAABAA"> </span><script type="text/javascript">
+					addToLanSpecTextIdSet("ID0EBCACACAAABAA?vb=.|cpp=::|cs=.|fs=.|nu=.");
+				</script>String</a><br /><span><p style="color: #dc143c; font-size: 8.5pt; font-weight: bold;">[Missing &lt;param name="version"/&gt; documentation for "M:TempoDB.TempoDB.#ctor(TempoDB.Database,TempoDB.Credentials,System.String,System.Int32,System.String,System.Boolean,RestSharp.RestClient)"]</p></span></dd></dl><dl paramName="secure"><dt><span class="parameter">secure</span> (Optional)</dt><dd>Type: <a href="http://msdn2.microsoft.com/en-us/library/a28wyd50" target="_blank">System<span id="ID0EBCABACAAABAA"> </span><script type="text/javascript">
+					addToLanSpecTextIdSet("ID0EBCABACAAABAA?vb=.|cpp=::|cs=.|fs=.|nu=.");
+				</script>Boolean</a><br /><span><p style="color: #dc143c; font-size: 8.5pt; font-weight: bold;">[Missing &lt;param name="secure"/&gt; documentation for "M:TempoDB.TempoDB.#ctor(TempoDB.Database,TempoDB.Credentials,System.String,System.Int32,System.String,System.Boolean,RestSharp.RestClient)"]</p></span></dd></dl><dl paramName="client"><dt><span class="parameter">client</span> (Optional)</dt><dd>Type: <span class="nolink">RestClient</span><br /><span><p style="color: #dc143c; font-size: 8.5pt; font-weight: bold;">[Missing &lt;param name="client"/&gt; documentation for "M:TempoDB.TempoDB.#ctor(TempoDB.Database,TempoDB.Credentials,System.String,System.Int32,System.String,System.Boolean,RestSharp.RestClient)"]</p></span></dd></dl></div><a name="seeAlsoSection"></a><div class="VS2013_CollapsibleAreaRegion"><span class="VS2013_RegionTitle" onclick="ExpandCollapse('ID1RB')" onkeypress="ExpandCollapse_CheckKey('ID1RB', event)" tabindex="0"><img id="ID1RBToggle" class="CollapseToggle" src="../icons/Expanded.png" />See Also</span></div><div id="ID1RBSection" class="VS2013_CollapsibleSection"><h4 class="subHeading">Reference</h4><div class="seeAlsoStyle"><a href="19adfce3-6e99-a52c-217e-63e11283e90d.htm">TempoDB Class</a></div><div class="seeAlsoStyle"><a href="763ef31e-f67e-f0e8-96ac-5632b1a1eaba.htm">TempoDB Namespace</a></div></div></div></div></div></div><div id="VS2013_footer" class="VS2013_footer"></div></body></html>
